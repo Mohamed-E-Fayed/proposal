@@ -1,0 +1,80 @@
+\documentclass[
+	%a4paper, % Use A4 paper size
+	letterpaper, % Use US letter paper size
+]{jdf}
+
+\addbibresource{references.bib}
+
+\author{Mohamed Essam Moustafa Kamel Fayed, Varun Ramakrishnan, Bruce Walker}
+\email{mohamed.fayed@gatech.edu, vramakri6@gatech.edu, bruce.walker@psych.gatech.edu}
+\title{Graph Ingestion Engine (Fall 2024)}
+
+\begin{document}
+%\lsstyle
+
+\maketitle
+
+\begin{abstract}
+
+    Graph Ingestion Engine (GIE) is a project that aims at reverse engineering graphs into their underlying data points.
+    This is important for digitizing those graphs into more compressed form and making charts accessible to people with visual disabilities.
+    In this semester, we will continue on previous efforts towards this goal.
+\end{abstract}
+
+\section{Introduction}\label{sect:introduction}
+
+%Charts are used to explore and get insights about underlying data.
+%Unfortunately, they are embedded into images formats with no meta data about their content, thus providing no information to screen readers and their users.
+Charts are convenient methods in conveying messages about underlying data.
+However, they are stored as images, thus consuming a lot of storage capacity.
+Moreover, they are inaccessible to screen readers, thus not informative to visually impaired people.
+
+There has been growing interest in converting them into accessible formats, by converting them into tables~\cite{liu2022deplot},. 
+Another direction is concerned with Chart Question Answering~\cite{masry2022chartqa,masry2024chartgemma}.
+
+%In our work, we focus on 
+
+\section{Related Work}
+\label{sect:related}
+There are many types of graphs, and each type proposes a different set of challenges in extracting their underlying data, in a process known as deplot.
+This necessitates determining the type of input chart.
+~\cite{dsouza2023} built a classifier to detect the type of input chart.
+~\cite{dsouza2022} explored the usage of image segmentation algorithms to deplot gray scaled scatter plots.
+~\cite{dsouza2023} succeeded in making data out of Line Charts and initially good results on Pie Charts.
+They showed that Deep Learning is superior to other techniques in Pie Charts.
+
+\section{Scope}\label{sect:scope}
+
+During this semester, we aim at:
+\begin{itemize}
+         \item  making a deployment that can be tested by external partners,
+         \item Assess the quality of models made by other colleagues in the wild, and
+         \item Improve the quality of all models in the system.
+              \end{itemize}
+
+\paragraph{In details:} 
+\begin{enumerate}
+         \item Make a new metric for evaluating the consistency of models in extracting the trend in data used to generate graphs.
+         \item Update the RMS algorithm and handle more input cases,
+         \item Continue the survey of testing LLMs in the task of Chart-to-Table.
+         \item Continue orgganizing testsets according to difficulty in order to make it more informative in quantifying improvement and track progress, and
+         \item Add more types of graphs.
+              \end{enumerate}
+
+            
+            \section{Timeline}\label{sect:timeline}
+
+            \begin{table}
+                 \begin{tabular}{|c|c|c|}
+                     Task & Assignee & Due Date \\
+                     Convert CV outputs into tables & & \\
+                     Fix Deployment & & \\
+                     Finish survey of Chart-to-Table & & 02/15 (Deadline for ACL conference) \\
+                 \end{tabular}
+                 \caption{}
+                 \label{}
+                  \end{table}
+
+\section{References}
+\printbibliography[heading=none]
+\end{document}
