@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  22 JAN 2025 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.1)  22 JAN 2025 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,14 +1205,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
 
-No file main.bbl.
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 15
 .
-(/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ppl.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 15.
@@ -1257,82 +1257,26 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-
-LaTeX Warning: Citation 'liu2022deplot' on page 1 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'liu2022deplot' on page 1 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'masry2022chartqa' on page 1 undefined on input line 33
-.
-
-
-LaTeX Warning: Citation 'masry2024chartgemma' on page 1 undefined on input line
- 33.
-
-
-LaTeX Warning: Citation 'masry2022chartqa' on page 1 undefined on input line 33
-.
-
-
-LaTeX Warning: Citation 'masry2024chartgemma' on page 1 undefined on input line
- 33.
-
-
-Overfull \hbox (4.18054pt too wide) in paragraph at lines 32--34
-\T1/pplj/m/n/11 (-10) cerned with Chart Ques-tion An-swer-ing [], [],
- []
-
-
-LaTeX Warning: Citation 'dsouza2023' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation 'dsouza2023' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation 'dsouza2022' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation 'dsouza2022' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation 'dsouza2023' on page 1 undefined on input line 43.
-
-
-LaTeX Warning: Citation 'dsouza2023' on page 1 undefined on input line 43.
-
 LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
-50.
+52.
+
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 ) [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (19.48273pt too wide) in paragraph at lines 74--80
+Overfull \hbox (25.35672pt too wide) in paragraph at lines 78--85
 [][] 
  []
 
-
-LaTeX Warning: Empty bibliography on input line 96.
-
-[2] (./main.aux)
+[2] [3] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 32215D68A12C49F4E0FB74A410D7F843;821.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1342,23 +1286,25 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 15 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29582 strings out of 474116
- 569551 string characters out of 5743682
+ 29696 strings out of 474116
+ 571688 string characters out of 5743682
  1937187 words of memory out of 5000000
- 51379 multiletter control sequences out of 15000+600000
- 607964 words of font info for 185 fonts, out of 8000000 for 9000
+ 51439 multiletter control sequences out of 15000+600000
+ 613909 words of font info for 214 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,8n,131p,997b,1961s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,131p,997b,1970s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplb
 ij8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/te
-xlive/2024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/
-2024/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on main.pdf (2 pages, 89522 bytes).
+ocal/texlive/2024/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2024/te
+xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (3 pages, 112829 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 63553 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 28 named destinations out of 1000 (max. 500000)
+ 77889 words of extra memory for PDF output out of 89155 (max. 10000000)
 
